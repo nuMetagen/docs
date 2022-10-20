@@ -42,29 +42,38 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: '59H0GXZDVV',
+        apiKey: '10f312d22225eaf811f41435756fb486',
+        indexName: 'dev_numetagen',
+        contextualSearch: true,
+
+        externalUrlRegex: 'external\\.com|domain\\.com',
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
       navbar: {
-        title: 'nuMetagen Docs',
+        title: 'nuMetagen',
         logo: {
           alt: 'nuMetagen Logo',
           src: 'img/logo.svg',
         },
         items: [{
             type: 'doc',
-            docId: 'intro',
+            docId: 'getting-started/overview',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
+          // {
+          //   to: '/blog',
+          //   label: 'Blog',
+          //   position: 'left'
+          // },
           {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left'
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/nuMetagen/nuMetagenDocs/',
             label: 'GitHub',
             position: 'right',
           },
@@ -76,15 +85,15 @@ const config = {
             title: 'Docs',
             items: [{
                 label: 'Getting Started',
-                to: '/docs/intro',
+                to: '/docs/getting-started/overview',
               },
               {
                 label: 'Features',
-                to: '/docs/features',
+                to: '/docs/etc/features',
               },
               {
                 label: 'Release Notes',
-                to: '/docs/release-notes',
+                to: '/docs/etc/release-notes',
               },
             ],
           },
