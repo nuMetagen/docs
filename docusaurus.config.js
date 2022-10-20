@@ -10,7 +10,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
 
   url: 'https://leguna.github.io',
-  baseUrl: '/',
+  baseUrl: '/nuMetagenDocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
