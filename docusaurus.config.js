@@ -8,7 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'nuMetagen SDK',
   tagline: 'Dinosaurs are cool',
-  url: 'https://nuMetagen.id',
+
+  url: 'https://nuMetagen.github.id',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,6 +17,8 @@ const config = {
 
   organizationName: 'nuMetagen',
   projectName: 'nuMetagenDocs',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   i18n: {
     defaultLocale: 'en',
