@@ -9,13 +9,13 @@ const config = {
   title: 'nuMetagen SDK',
   tagline: 'Dinosaurs are cool',
 
-  url: 'https://nuMetagen.github.id',
+  url: 'https://leguna.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'nuMetagen',
+  organizationName: 'Leguna',
   projectName: 'nuMetagenDocs',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
