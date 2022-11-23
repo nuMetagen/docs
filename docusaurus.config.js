@@ -31,14 +31,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/nuMetagen/nuMetagenDocs/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/Leguna/nuMetagenDocs/tree/master/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   editUrl:
-        //     'https://github.com/nuMetagen/nuMetagenDocs/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -48,26 +45,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      algolia: {
-        appId: '59H0GXZDVV',
-        apiKey: '10f312d22225eaf811f41435756fb486',
-        indexName: 'dev_numetagen',
-        contextualSearch: true,
-
-        externalUrlRegex: 'external\\.com|domain\\.com',
-        searchParameters: {},
-        searchPagePath: 'search',
-      },
       navbar: {
         title: 'nuMetagen',
         logo: {
           alt: 'nuMetagen Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.jpg',
         },
         items: [{
             type: 'doc',
             docId: 'getting-started/overview',
-            position: 'left',
+            position: 'right',
             label: 'Docs',
           },
           // {
@@ -75,11 +62,11 @@ const config = {
           //   label: 'Blog',
           //   position: 'left'
           // },
-          {
-            href: 'https://github.com/nuMetagen/nuMetagenDocs/',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/nuMetagen/nuMetagenDocs/',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
