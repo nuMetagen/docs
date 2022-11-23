@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknu_metagen_docs=self.webpackChunknu_metagen_docs||[]).push([[593],{4036:e=>{e.exports=JSON.parse('{"title":"Other","slug":"/category/other","permalink":"/category/other","navigation":{"previous":{"title":"Translate your site","permalink":"/tutorial-extras/translate-your-site"},"next":{"title":"Features","permalink":"/etc/features"}}}')}}]);
