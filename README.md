@@ -40,7 +40,7 @@ Currently we only provide local sdk. Will publish it on mavenCentral
     implementation(name: 'nuMetagenSDK-ads', ext: 'aar')
     ```
 
-If you question please feel free to contact us that placed on [our Website](https://numetagen.id/)
+If you question please feel free to contact us on [our Website](https://numetagen.id/)
 <!-- ## FAQ
 - Where i can get APIKey?
     
