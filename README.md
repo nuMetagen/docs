@@ -1,41 +1,28 @@
-# Website
+# nuMetagen Docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Documentation for nuMetagen AR Ads SDK
 
-### Installation
+## Installation
 
-```
-$ yarn
-```
+Installation Guide for specific platform.
 
-### Local Development
+### Android
 
-```
-$ yarn start
-```
+1. Download SDK from [nuMetagen Website](https://numetagen.github.io/)
+2. Add meta-data for API Key on your AndroidManifest.xml inside application tag.
+    ```xml
+        </activity>
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+        <meta-data android:name="id.numetagen.sdk.apikey" android:value="YOUR_API_KEY" />
+    </application>
+    ```
+3. 
+## Guides
 
-### Build
+### Guides For Developers
 
-```
-$ yarn build
-```
+- Contact nuMetagenSDK for getting API Key
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### Guides For Ads Publisher
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+-

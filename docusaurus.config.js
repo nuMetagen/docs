@@ -7,15 +7,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'nuMetagen SDK',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Documentation for nuMetagen AR SDK',
 
-  url: 'https://leguna.github.io',
-  baseUrl: '/nuMetagenDocs/',
+  url: 'https://numetagen.github.io',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
-  organizationName: 'Leguna',
+  organizationName: 'nuMetagen',
   projectName: 'nuMetagenDocs',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -33,7 +33,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Leguna/nuMetagenDocs/tree/master/',
+          // editUrl: 'https://github.com/Leguna/nuMetagenDocs/tree/master/',
         },
         blog: false,
         theme: {
@@ -49,44 +49,31 @@ const config = {
         title: 'nuMetagen',
         logo: {
           alt: 'nuMetagen Logo',
-          src: 'img/logo.jpg',
+          src: 'img/logo.png',
         },
+        hideOnScroll: true,
         items: [{
             type: 'doc',
-            docId: 'getting-started/overview',
+            docId: 'Introduction/getting-started',
             position: 'right',
             label: 'Docs',
           },
-          // {
-          //   to: '/blog',
-          //   label: 'Blog',
-          //   position: 'left'
-          // },
-          // {
-          //   href: 'https://github.com/nuMetagen/nuMetagenDocs/',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://github.com/nuMetagen/',
+            label: 'GitHub',
+            position: 'right',
+          },
+          
         ],
       },
       footer: {
         style: 'dark',
-        links: [{
-            title: 'Docs',
-            items: [{
-                label: 'Getting Started',
-                to: '/docs/getting-started/overview',
-              },
-              {
-                label: 'Features',
-                to: '/docs/etc/features',
-              },
-              {
-                label: 'Release Notes',
-                to: '/docs/etc/release-notes',
-              },
-            ],
-          },
+        links: [
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //   ],
+          // },
           // {
           //   title: 'Community',
           //   items: [
