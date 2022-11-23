@@ -1,6 +1,3 @@
----
-sidebar_position: 1
----
 # Getting Started
 
 We created MetaSDK so developers can easily integrate and add certain AR-powered functions tailored to your needs. We will also help you with the AR Contents management and production and turn your ideas into reality.
