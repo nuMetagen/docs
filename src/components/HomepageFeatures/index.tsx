@@ -11,7 +11,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Markerless AR',
+    title: 'ARGAN',
     // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     Image: require('@site/static/img/1.jpg').default,
     description: (
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Marker-based AR',
+    title: 'MetaSDK',
     Image: require('@site/static/img/2.jpg').default,
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Marker-based AR',
+    title: 'ARCreator',
     Image: require('@site/static/img/3.jpg').default,
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
