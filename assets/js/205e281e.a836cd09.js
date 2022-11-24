@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknu_metagen_docs=self.webpackChunknu_metagen_docs||[]).push([[474],{6185:t=>{t.exports=JSON.parse('{"title":"Introduction","description":" ","slug":"/category/introduction","permalink":"/docs/category/introduction","navigation":{"next":{"title":"Getting Started","permalink":"/docs/Introduction/getting-started"}}}')}}]);
