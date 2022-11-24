@@ -1,8 +1,26 @@
-# Getting Started
+---
+sidebar_position: 2
+---
+# Usage
 
-We created MetaSDK so developers can easily integrate and add certain AR-powered functions tailored to your needs. We will also help you with the AR Contents management and production and turn your ideas into reality.
+## AR Ads
 
-Discuss with us on how you can add suitable functions for your Android apps by utilizing the Marker-based or Markerless AR technology or join our AR Ads Network and be our Publisher to generate additional revenue and monetize from AR Ads.
+## Android - Kotlin
+
+### Basic Usage - Move to AR Ads Activity
+
+1. Import nuMetagenSDK
+
+    ```kotlin
+    import id.numetagen.sdk.NuMetagenAdsActivity
+    ```
+
+2. Create Intent Activity and Start it.
+
+    ```kotlin
+    val i = Intent(this, NuMetagenAdsActivity::class.java)
+    startActivity(i)
+    ```
 
 ## Installation
 
@@ -43,6 +61,7 @@ Currently we only provide local sdk. Will publish it on mavenCentral
 6. Lastly, Sync your gradle and you are ready to go.
 
 If you question please feel free to contact us on [our Website](https://numetagen.id/)
+
 <!-- ## FAQ
 - Where i can get APIKey?
     

@@ -35,13 +35,15 @@ Currently we only provide local sdk. Will publish it on mavenCentral
     <meta-data android:name="id.numetagen.sdk.apikey" android:value="YOUR_API_KEY" />
     ```
 
-5. Lastly, Add implement on your app build.gradle, since nuMetagenSDK dependency with google AR Core, add it with sdk.
+5. Implement on your app build.gradle, since nuMetagenSDK dependency with google AR Core, add it with sdk.
 
     ```gradle
     implementation 'com.google.ar:core:1.34.0'
     implementation(name: 'nuMetagenSDK-core', ext: 'aar')
     implementation(name: 'nuMetagenSDK-ads', ext: 'aar')
     ```
+
+6. Lastly, Sync your gradle and you are ready to go.
 
 If you question please feel free to contact us on [our Website](https://numetagen.id/)
 <!-- ## FAQ
