@@ -46,11 +46,3 @@ Currently we only provide local sdk. Will publish it on mavenCentral
 6. Lastly, Sync your gradle and you are ready to go.
 
 If you question please feel free to contact us on [our Website](https://numetagen.id/)
-<!-- ## FAQ
-- Where i can get APIKey?
-    
-    You can Contact nuMetagen for getting API Key
-
-- I want to publish my ads on nuMetagen AR Ads?
-
-    Contact nuMetagen  -->
