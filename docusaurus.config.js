@@ -9,8 +9,8 @@ const config = {
   title: 'nuMetagen SDK',
   tagline: 'Documentation for nuMetagen AR SDK',
 
-  url: 'https://numetagen.github.io',
-  baseUrl: '/docs/',
+  url: 'https://docs.numetagen.id',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
