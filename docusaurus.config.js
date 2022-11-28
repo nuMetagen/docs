@@ -16,7 +16,7 @@ const config = {
   favicon: 'img/logo.png',
 
   organizationName: 'nuMetagen',
-  projectName: 'nuMetagenDocs',
+  projectName: 'docs',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -33,7 +33,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // editUrl: 'https://github.com/Leguna/nuMetagenDocs/tree/master/',
+          // editUrl: 'https://github.com/nuMetagen/docs/tree/master/',
         },
         blog: false,
         theme: {
