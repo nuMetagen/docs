@@ -44,7 +44,6 @@ Currently we only provide local sdk. Will publish it on mavenCentral
     implementation(name: 'numetagenSDK-0.7.0', ext: 'aar')
     ```
 
-    
 6. Lastly, Sync your gradle and you are ready to go.
 
 If you question please feel free to contact us on [our Website](https://numetagen.id/)
