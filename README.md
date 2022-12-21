@@ -29,13 +29,13 @@ Currently we only provide local sdk. Will publish it on mavenCentral
     ...
     ```
 
-4. Add meta-data for API Key on your AndroidManifest.xml inside application tag
+4. Add meta-data for API Key on your AndroidManifest.xml inside application tag.
 
     ```xml
     <meta-data android:name="id.numetagen.sdk.apikey" android:value="YOUR_API_KEY" />
     ```
 
-5. Implement on your app build.gradle, since nuMetagenSDK dependency with google AR Core, add it with sdk.
+5. Implement on your app build.gradle, since nuMetagenSDK dependency with google AR Core, it may conflict with your current dependency. Change numetagenSDK-0.7.0 based on file name and SDK Version.
 
     ```gradle
     implementation(name: 'numetagenSDK-0.7.0', ext: 'aar')
