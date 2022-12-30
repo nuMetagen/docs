@@ -15,7 +15,7 @@ Installation Guide for specific platform. For now still using local file.
 
 Currently we only provide local sdk. Will publish it on mavenCentral  
 
-1. Download SDK [Latest Version](https://github.com/nuMetagen/docs/releases/download/v0.7.0/numetagenSDK-0.7.0.aar)
+1. Download SDK [Latest Version](https://github.com/nuMetagen/docs/releases/download/v0.8.3/nuMetagenSDK-0.8.3.aar)
 2. Create libs folder and add all nuMetagenSDK to your android project root/libs/ folder
 3. Add libs folder on your repository to access local library in settings.gradle
 
@@ -38,10 +38,10 @@ Currently we only provide local sdk. Will publish it on mavenCentral
     <meta-data android:name="id.numetagen.sdk.apikey" android:value="YOUR_API_KEY" />
     ```
 
-5. Implement on your app build.gradle, since nuMetagenSDK dependency with google AR Core, it may conflict with your current dependency. Change numetagenSDK-0.7.0 based on file name and SDK Version.
+5. Implement on your app build.gradle, since nuMetagenSDK dependency with google AR Core, it may conflict with your current dependency. Change latest version based on file name and SDK Version.
 
     ```gradle
-    implementation(name: 'numetagenSDK-0.7.0', ext: 'aar')
+    implementation(name: 'numetagenSDK-<latest-version>', ext: 'aar')
     ```
 
 6. Lastly, Sync your gradle and you are ready to go.
