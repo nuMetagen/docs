@@ -6,12 +6,35 @@ Discuss with us on how you can add suitable functions for your Android apps by u
 
 ## Installation
 
-Installation Guide for specific platform. For now still using local file.
+Installation Guide for specific platform.
 
-### Android
+### Android - Maven Jitpack
+1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
+    
+    ```
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+   ```
 
-Currently we only provide local sdk. Will publish it on mavenCentral  
 
+2. Add the dependency
+    ```
+    dependencies {
+        implementation 'com.github.nuMetagen:nuMetagenSDKAndroid:0.8.4'
+    }
+    ```
+
+3. Add meta-data for API Key on your AndroidManifest.xml inside application tag.
+
+    ```xml
+    <meta-data android:name="id.numetagen.sdk.apikey" android:value="YOUR_API_KEY" />
+    ```
+
+### Android - Local File
 1. Download SDK [Latest Version](https://github.com/nuMetagen/docs/releases/download/v0.8.3/nuMetagenSDK-0.8.3.aar)
 2. Create libs folder and add all nuMetagenSDK to your android project root/libs/ folder
 3. Add libs folder on your repository to access local library in settings.gradle
@@ -42,5 +65,6 @@ Currently we only provide local sdk. Will publish it on mavenCentral
     ```
 
 6. Lastly, Sync your gradle and you are ready to go.
+
 
 If you question please feel free to contact us on [our Website](https://numetagen.id/)
