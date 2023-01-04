@@ -24,7 +24,7 @@ Installation Guide for specific platform.
 2. Add the dependency
     ```
     dependencies {
-        implementation 'com.github.nuMetagen:nuMetagenSDKAndroid:0.8.4'
+        implementation 'com.github.nuMetagen:nuMetagenSDKAndroid:0.8.4@aar'
     }
     ```
 
