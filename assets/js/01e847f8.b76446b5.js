@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknu_metagen_docs=self.webpackChunknu_metagen_docs||[]).push([[711],{4252:e=>{e.exports=JSON.parse('{"title":"Features","description":" ","slug":"/category/features","permalink":"/category/features","navigation":{"previous":{"title":"Usage","permalink":"/Introduction/usage"},"next":{"title":"AR Ads","permalink":"/features/"}}}')}}]);
