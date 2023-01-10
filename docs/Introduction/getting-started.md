@@ -14,10 +14,14 @@ Discuss with us on how you can add suitable functions for your Android apps by u
 
 Installation Guide for specific platform.
 
+:::caution
+nuMetagenSDK require Android Minimal Sdk Version 26
+:::
 ### Android - Maven Jitpack
+
 1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
-    
-    ```
+
+    ```gradle
     allprojects {
         repositories {
             ...
@@ -26,9 +30,9 @@ Installation Guide for specific platform.
     }
    ```
 
-
 2. Add the dependency
-    ```
+
+    ```gradle
     dependencies {
         implementation 'com.github.nuMetagen:nuMetagenSDKAndroid:0.8.4@aar'
     }
@@ -41,6 +45,7 @@ Installation Guide for specific platform.
     ```
 
 ### Android - Local File
+
 1. Download SDK [Latest Version](https://github.com/nuMetagen/docs/releases/download/v0.8.3/nuMetagenSDK-0.8.3.aar)
 2. Create libs folder and add all nuMetagenSDK to your android project root/libs/ folder
 3. Add libs folder on your repository to access local library in settings.gradle
@@ -71,5 +76,31 @@ Installation Guide for specific platform.
     ```
 
 6. Lastly, Sync your gradle and you are ready to go.
+
+### Flutter - Android
+
+1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
+
+    ```gradle
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+   ```
+
+2. Add dependency
+
+    ```yaml
+    dependencies:
+      numetagen_sdk_flutter: ^0.8.6
+    ```
+
+3. Add meta-data for API Key on your AndroidManifest.xml inside application tag.
+
+    ```xml
+    <meta-data android:name="id.numetagen.sdk.apikey" android:value="YOUR_API_KEY" />
+    ```
 
 If you question please feel free to contact us on [our Website](https://numetagen.id/)

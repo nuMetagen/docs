@@ -21,4 +21,22 @@ Basic Usage - Move to AR Ads Activity
    startActivity(i)
    ```
 
-That's it. You can now move to AR Ads Activity.
+### Flutter
+
+1. Import nuMetagenSDK
+
+   ```js
+   import "package:numetagen_sdk_flutter/numetagen_sdk_flutter.dart";
+   ```
+
+2. And use it on button to open Ads.
+
+   ```js
+   ElevatedButton(
+      /// This is the button that will call the native platform
+      onPressed: () async => await NumetagenSdkFlutter().startAdsActivity(),
+      child: const Text('Start Ads Activity'),
+   ),
+   ```
+
+That's it. Now you can now move to AR Ads Activity.
