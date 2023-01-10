@@ -7,6 +7,9 @@ We created MetaSDK so developers can easily integrate and add certain AR-powered
 
 Discuss with us on how you can add suitable functions for your Android apps by utilizing the Marker-based or Markerless AR technology or join our AR Ads Network and be our Publisher to generate additional revenue and monetize from AR Ads.
 
+[![jitPack](https://jitpack.io/v/nuMetagen/nuMetagenSDKAndroid.svg)](https://jitpack.io/#nuMetagen/nuMetagenSDKAndroid)
+[![pub package](https://img.shields.io/pub/v/numetagen_sdk_flutter.svg)](https://pub.dev/packages/numetagen_sdk_flutter)
+
 ## Installation
 
 Installation Guide for specific platform.
@@ -68,6 +71,5 @@ Installation Guide for specific platform.
     ```
 
 6. Lastly, Sync your gradle and you are ready to go.
-
 
 If you question please feel free to contact us on [our Website](https://numetagen.id/)
