@@ -17,6 +17,7 @@ Installation Guide for specific platform.
 :::caution
 nuMetagenSDK require Android Minimal Sdk Version 26
 :::
+
 ### Android - Maven Jitpack
 
 1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
